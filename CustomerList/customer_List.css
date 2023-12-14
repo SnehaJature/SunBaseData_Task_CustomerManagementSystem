@@ -1,0 +1,57 @@
+/* customer_List.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#customerTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#customerTable th,
+#customerTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#customerTable th {
+    background-color: #f2f2f2;
+}
+
+#customerTable td:last-child {
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.update {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+button.update:hover,
+button.delete:hover {
+    opacity: 0.8;
+}
