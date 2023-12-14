@@ -12,7 +12,7 @@ To use the system, follow these steps:
    git clone https://github.com/your-username/customer-management.git
 
 ## Features
-# Login Page:
+## Login Page:
 
 Authenticate users using credentials through API integration.
 Receive a Bearer token for subsequent API calls.
@@ -26,12 +26,12 @@ API Integration:
 
 Utilizes various API endpoints for authentication, CRUD operations, and more.
 File Structure
-# Login/: Contains the HTML, CSS, and JavaScript files for the login page.
-# Customer/: Contains the HTML, CSS, and JavaScript files for customer management.
-# CustomerList/: Contains the HTML, CSS, and JavaScript files for customer List.
+### Login/: Contains the HTML, CSS, and JavaScript files for the login page.
+### Customer/: Contains the HTML, CSS, and JavaScript files for customer management.
+### CustomerList/: Contains the HTML, CSS, and JavaScript files for customer List.
 
-# Acknowledgments
-# Special thanks to SunBase Data for providing the API used in this project.
+### Acknowledgments
+##### Special thanks to SunBase Data for providing the API used in this project.
 
 This README provides an overview of the project, instructions on getting started, details about features, file structure, API endpoints, and other relevant information. Customize it according to your specific project details and requirements.
 
